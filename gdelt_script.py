@@ -19,7 +19,7 @@ from colorama import Fore, Back
 
 #Data Cleaning
 
-df = pd.read_csv('data3.csv')
+df = pd.read_csv('data3.csv')  #Data3 is the responses of the chatbot from MongoDB in a csv file
 del df['_id']
 del df['updatedAt']
 
